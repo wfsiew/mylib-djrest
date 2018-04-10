@@ -1,0 +1,17 @@
+TEAB4NcyNsznljHJuCqK1DBhlP4mmqwDRC8pJXpn
+
+eiCcButiYIH8hfnFG9WQKhpDEJx4VgneepuJRtFlceHnP1vfO4pbrKAqbvfmdDFO10aRQTmTjClPLbwdhqo6JiXB6opRBC4S1xotbq7C3tHuTPZWKcKEDLOqxvUasx8y
+
+curl -X POST -d "grant_type=password&username=wfsiew&password=wfsiew123" -u"TEAB4NcyNsznljHJuCqK1DBhlP4mmqwDRC8pJXpn:eiCcButiYIH8hfnFG9WQKhpDEJx4VgneepuJRtFlceHnP1vfO4pbrKAqbvfmdDFO10aRQTmTjClPLbwdhqo6JiXB6opRBC4S1xotbq7C3tHuTPZWKcKEDLOqxvUasx8y" http://localhost:8000/o/token/
+
+== student ==
+curl -X POST -d "grant_type=password&username=david.tee&password=david.tee" -u"TEAB4NcyNsznljHJuCqK1DBhlP4mmqwDRC8pJXpn:eiCcButiYIH8hfnFG9WQKhpDEJx4VgneepuJRtFlceHnP1vfO4pbrKAqbvfmdDFO10aRQTmTjClPLbwdhqo6JiXB6opRBC4S1xotbq7C3tHuTPZWKcKEDLOqxvUasx8y" http://localhost:8000/o/token/
+
+== teacher ==
+curl -X POST -d "grant_type=password&username=ben.lee&password=ben.lee" -u"TEAB4NcyNsznljHJuCqK1DBhlP4mmqwDRC8pJXpn:eiCcButiYIH8hfnFG9WQKhpDEJx4VgneepuJRtFlceHnP1vfO4pbrKAqbvfmdDFO10aRQTmTjClPLbwdhqo6JiXB6opRBC4S1xotbq7C3tHuTPZWKcKEDLOqxvUasx8y" http://localhost:8000/o/token/
+
+== librarian ==
+curl -X POST -d "grant_type=password&username=john.lee&password=john.lee" -u"TEAB4NcyNsznljHJuCqK1DBhlP4mmqwDRC8pJXpn:eiCcButiYIH8hfnFG9WQKhpDEJx4VgneepuJRtFlceHnP1vfO4pbrKAqbvfmdDFO10aRQTmTjClPLbwdhqo6JiXB6opRBC4S1xotbq7C3tHuTPZWKcKEDLOqxvUasx8y" http://localhost:8000/o/token/
+
+== librarian ==
+curl -X POST -d "grant_type=password&username=andy.hui&password=andy.hui" -u"TEAB4NcyNsznljHJuCqK1DBhlP4mmqwDRC8pJXpn:eiCcButiYIH8hfnFG9WQKhpDEJx4VgneepuJRtFlceHnP1vfO4pbrKAqbvfmdDFO10aRQTmTjClPLbwdhqo6JiXB6opRBC4S1xotbq7C3tHuTPZWKcKEDLOqxvUasx8y" http://localhost:8000/o/token/
