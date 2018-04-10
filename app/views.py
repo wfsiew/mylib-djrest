@@ -283,7 +283,12 @@ class BookReturn(APIView):
 
 class Daily(APIView):
     
+    permission_classes = [permissions.IsAuthenticated]
+    
     def get(self, req, format=None):
+        if User.is_admin(req.user.usertype) == False:
+            return Response(status=status.HTTP_403_FORBIDDEN)
+            
         con = None
         res = None
 
